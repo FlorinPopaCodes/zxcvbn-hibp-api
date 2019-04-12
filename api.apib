@@ -1,0 +1,56 @@
+FORMAT: 1A
+
+# Password Metadata API
+
+# Health [/health]
+## Check service health [GET]
+
++ Response 204
+
+# Password [/password]
+## Check password [POST]
+
++ Request
+    + Headers
+
+            Content-Type: application/json; charset=utf-8
+
+    + Body
+
+            {
+              "password": "password"
+            }
+
++ Response 200
+    + Headers
+
+            Content-Type: application/json; charset=utf-8
+
+    + Body
+
+            {
+              "score": -1
+            }
+
+
++ Request
+    + Headers
+
+            Content-Type: application/json; charset=utf-8
+
+    + Body
+
+            {
+              "password": "+M\\)?3Wt9:[/g%m*sVF!"
+            }
+
++ Response 200
+    + Headers
+
+            Content-Type: application/json; charset=utf-8
+
+    + Body
+
+            {
+              "score": 4
+            }
