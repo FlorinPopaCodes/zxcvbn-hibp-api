@@ -11,7 +11,7 @@
     "dredd": "dredd api-description.apib http://127.0.0.1:3000"
   },
   "devDependencies": {
-    "dredd": "^5.1.11",
+    "dredd": "^9.0.4",
     "nodemon": "^1.18.4",
     "standard": "^12.0.1"
   },
