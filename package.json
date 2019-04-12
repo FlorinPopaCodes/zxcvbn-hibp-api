@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "hibp": "^7.5.1",
-    "koa": "^2.5.2",
+    "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
     "zxcvbn": "^4.4.2"
