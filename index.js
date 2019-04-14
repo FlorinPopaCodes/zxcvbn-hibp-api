@@ -7,7 +7,7 @@ const { pwnedPassword } = require('hibp')
 var app = new Koa()
 var router = new Router()
 
-passwordCheck = async function (ctx) {
+var passwordCheck = async function (ctx) {
   const body = ctx.request.body
 
   if (!body.password) ctx.throw(400, 'password required')
@@ -17,17 +17,12 @@ passwordCheck = async function (ctx) {
   } else {
     const result = zxcvbn(body.password)
 
-    ctx.body = { score: result.score}
+    ctx.body = { score: result.score }
   }
-};
-
-health = async function (ctx) {
-  ctx.response.status = 204
 }
 
 router
   .post('/password', passwordCheck)
-  .get('/health', health)
 
 app
   .use(BodyParser())
