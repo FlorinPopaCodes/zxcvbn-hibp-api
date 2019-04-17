@@ -2,7 +2,7 @@ FORMAT: 1A
 
 # Password Metadata API
 
-# Password [/password]
+# Password [/password-check]
 ## Check password [POST]
 
 + Request
@@ -24,7 +24,7 @@ FORMAT: 1A
     + Body
 
             {
-              "score": -1
+              "valid": false
             }
 
 
@@ -47,5 +47,5 @@ FORMAT: 1A
     + Body
 
             {
-              "score": 4
+              "valid": true
             }
