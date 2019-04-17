@@ -6,9 +6,8 @@
   "author": "Florin Popa",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "standard",
-    "dredd": "dredd api-description.apib http://127.0.0.1:3000"
+    "start": "node index.js",
+    "test": "yarn standard & yarn dredd"
   },
   "devDependencies": {
     "dredd": "^9.0.4",
