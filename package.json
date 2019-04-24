@@ -10,7 +10,7 @@
     "test": "yarn standard & yarn dredd"
   },
   "devDependencies": {
-    "dredd": "^9.0.4",
+    "dredd": "^9.0.5",
     "nodemon": "^1.18.11",
     "standard": "^12.0.1"
   },
