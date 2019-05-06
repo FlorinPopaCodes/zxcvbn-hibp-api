@@ -1,10 +1,11 @@
-init: true
+color: true
 dry-run: null
 hookfiles: null
 language: nodejs
-sandbox: false
+require: null
 server: npm start
 server-wait: 3
+init: false
 custom: {}
 names: false
 only: []
@@ -16,10 +17,7 @@ user: null
 inline-errors: false
 details: false
 method: []
-color: true
-level: info
-timestamp: false
-silent: false
+loglevel: warning
 path: []
 hooks-worker-timeout: 5000
 hooks-worker-connect-timeout: 1500
