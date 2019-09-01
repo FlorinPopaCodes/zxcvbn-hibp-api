@@ -12,7 +12,7 @@
   "devDependencies": {
     "dredd": "^11.2.15",
     "nodemon": "^1.19.1",
-    "standard": "^13.1.0"
+    "standard": "^14.1.0"
   },
   "dependencies": {
     "hibp": "^8.0.0",
