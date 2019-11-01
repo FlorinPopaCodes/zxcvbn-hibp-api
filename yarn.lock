@@ -883,10 +883,10 @@ dredd-transactions@9.0.6:
     fury-adapter-swagger "0.27.2"
     uri-template "1.0.1"
 
-dredd@^12.0.8:
-  version "12.0.8"
-  resolved "https://registry.yarnpkg.com/dredd/-/dredd-12.0.8.tgz#c7c4d5071c9e92de5bedf3c78e896bc614666bd5"
-  integrity sha512-iFwToMNpQMKRtmJ7AreErupTK23w0XbJNQC75a+rzzKPkAVsGNKT+By0bv/ZmVggchGcu2TRSvRYR4UOdg/buQ==
+dredd@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/dredd/-/dredd-12.1.0.tgz#1201e066d4d0512abcaca6bcc5d1a07206b121ef"
+  integrity sha512-kKTZpTjKYN4Q7+N6NCIBI0dkh14HCz7f1emqCjqV1R7s1wm0Hfp93Pry2eHyx3narZXs6Izvpn7LknTJWM4bpg==
   dependencies:
     async "3.1.0"
     caseless "0.12.0"
