@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "dredd": "^12.1.0",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.1",
     "standard": "^14.3.1"
   },
   "dependencies": {
