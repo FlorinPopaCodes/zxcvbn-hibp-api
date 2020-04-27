@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "test": "yarn standard & yarn dredd"
+    "test": "npx standard & npx dredd"
   },
   "devDependencies": {
     "dredd": "^13.0.2",
