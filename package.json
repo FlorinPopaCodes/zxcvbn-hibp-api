@@ -10,7 +10,7 @@
     "test": "npx standard & npx dredd"
   },
   "devDependencies": {
-    "dredd": "^13.1.2",
+    "dredd": "^14.0.0",
     "nodemon": "^2.0.6",
     "standard": "^16.0.3"
   },
